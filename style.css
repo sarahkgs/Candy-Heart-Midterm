@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Miss+Fajardose&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+
+body{
+  background-color: #1a000d;
+}
+
+#mainsubtitle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+}
+
+div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#textone{
+  position: absolute;
+  top:380px;
+  left:180px;
+}
+
+#texttwo{
+  position: absolute;
+  top:370px;
+  left:540px;
+}
+
+#textthree{
+  position: absolute;
+  top:675px;
+  left:990px;
+}
+
+#textfour{
+  position: absolute;
+  top: 800px;
+  left:450px;
+  width: 450px;
+}
+
+#endingtext{
+  position: absolute;
+  font-size: 70px;
+  top: 550px;
+  left: 80px;
+}
+
+#drawingone{
+  position: absolute;
+  top: 110px;
+  left: 100px;
+}
+
+#drawingtwo{
+  position: absolute;
+  top: 110px;
+  left: 500px;
+}
+
+#drawingthree{
+  position: absolute;
+  top: 110px;
+  left: 980px;
+}
+
+#drawingfour{
+  position: absolute;
+  top:530px;
+  left:420px;
+}
+
+p{
+  font-family: 'Miss Fajardose';
+  font-size: 50px;
+  color: #ff66b3;
+  width: 350px;
+  line-height: 40px;
+}
+
+/* HOVER INTERACTIONS */
+
+.hiddenText {
+  opacity: 0.0;
+  transition: all 1s;
+}
+
+.revealImage:hover + .hiddenText{
+  opacity: 1.0;
+}
