@@ -3,7 +3,12 @@
 
 
 body{
-  background-color: #1a000d;
+  background-image: url("heartcandybackground.png");
+  /* background-color: #1a000d; */
+  min-height: 120vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #mainsubtitle{
@@ -49,6 +54,7 @@ div{
   top: 550px;
   left: 80px;
 }
+
 
 #drawingone{
   position: absolute;
